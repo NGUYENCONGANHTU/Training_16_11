@@ -6,7 +6,7 @@ function addTask(){
         // Tạo một phần tử li và thêm nội dung của công việc vào
         var li = document.createElement("li");
         li.textContent = task;
-        li.style.listStyleType = "none"
+        li.style.listStyleType = "none";
     
         // Thêm phần tử li vào danh sách công việc
         showtask.appendChild(li);
