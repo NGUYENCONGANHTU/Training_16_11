@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Mono:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(156, 52, 7);
+}
+.clock h1{
+    font-family: Agbalumo;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 50px;
+}
+#demo1
+{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Agbalumo;
+    font-size: 50px;
+    font-weight: bold;
+}
+#demo{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 35px;
+    font-family: Agbalumo;
+}
+input{
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+label{
+    font-size: 25px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    font-family: Agbalumo;
+}
+.SetTimeout
+{
+    background-color: green;
+}
+.countdown
+{
+    background: rgb(178, 13, 13);
+}

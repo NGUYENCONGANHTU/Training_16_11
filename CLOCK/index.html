@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock">
+        <h1>ỨNG DỤNG ĐỒNG HỒ</h1>
+        <div id="demo1"></div>
+    </div>
+    <div id="demo">
+        <h1 id="clock">00:00:00</h1>
+    <label for="hours">Giờ:</label>
+    <input type="number" id="hours" min="0" max="23" value="0">
+    <label for="minutes">Phút:</label>
+    <input type="number" id="minutes" min="0" max="59" value="0">
+    <label for="seconds">Giây:</label>
+    <input type="number" id="seconds" min="0" max="59" value="0"><br>
+    <button class="SetTimeout" onclick="setTimer()">Đặt hẹn giờ</button>
+    <button class="countdown" onclick="cancelTimer()">Hủy hẹn giờ</button>
+    </div>
+</body>
+<script src="script.js">
+</script>
+</html>
