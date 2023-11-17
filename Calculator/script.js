@@ -1,4 +1,5 @@
 var resultInput = document.getElementById("output");
+resultInput.style.color="white";
 var currentExpression = "";
 
 function appendNumber(number) {
