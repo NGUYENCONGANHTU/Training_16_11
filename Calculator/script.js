@@ -1,33 +1,19 @@
-var resultInput = document.getElementById("output");
-resultInput.style.color="white";
-var currentExpression = "";
+var input = document.getElementById('output');
 
-function appendNumber(number) {
-  currentExpression += number;
-  updateResult();
+function EnterNumber(number){
+    input.innerHTML += number;
 }
-
-function appendOperator(operator) {
-  currentExpression += operator;
-  updateResult();
+function appenEqual(){
+    input.innerHTML+='.';
 }
-
-function appendDecimal() {
-  currentExpression += ".";
-  updateResult();
+function cleardisplay(){
+    input.innerHTML ='';
 }
-
-function clearResult() {
-  currentExpression = "";
-  updateResult();
+function appenOperator(value){
+    input.innerHTML += value;
 }
-
 function calculateResult() {
-  var result = eval(currentExpression);
-  currentExpression = result.toString();
-  updateResult();
-}
-
-function updateResult() {
-  resultInput.value = currentExpression;
-}
+    var result = eval(input.innerHTML);
+    input.innerHTML = result.toString();
+    updateResult();
+  }
