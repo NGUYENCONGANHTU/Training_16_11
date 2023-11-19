@@ -5,35 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-<link>
+
 </head>
 <body>
     <div class="container">
-      <input type="text" id="output" readonly>
-        <div class="buttons">
-            <button onclick="clearResult()" class="item">AC</button>
-            <button onclick="appendOperator('')" class="item">+/-</button>
+        <div id="output"></div>
+        <div class="row">
+            <button onclick="cleardisplay()" class="item">AC</button>
+            <button class="item">+/-</button>
             <button class="item">%</button>
-            <button onclick=" appendOperator('/')" class="operator">/</button>
-            <button onclick="appendNumber(7)" class="item">7</button>
-            <button onclick="appendNumber(8)" class="item">8</button>
-            <button onclick="appendNumber(9)" class="item">9</button>
-            <button onclick="appendOperator('*')" class="operator">*</button>
-            <button onclick="appendNumber(4)" class="item">4</button>
-            <button onclick="appendNumber(5)" class="item">5</button>
-            <button onclick="appendNumber(6)" class="item">6</button>
-            <button onclick="appendOperator('-')" class="operator">-</button>
-            <button onclick="appendNumber(1)" class="item">1</button>
-            <button onclick="appendNumber(2)" class="item">2</button>
-            <button onclick="appendNumber(3)" class="item">3</button>
-            <button onclick="appendOperator('+')" class="operator">+</button>
-            <button onclick="appendNumber(0)" class="item">0</button>
-            <button onclick="appendDecimal()" class="item">.</button>
-            <button onclick="calculateResult()" class="item">=</button>
+            <button onclick="appenOperator('/')" class="opera">/</button>
+        </div>
+        <div class="row">
+            <button onclick="EnterNumber(7)">7</button>
+            <button onclick="EnterNumber(8)">8</button>
+            <button onclick="EnterNumber(9)">9</button>
+            <button onclick="appenOperator('*')" class="opera">x</button>
+        </div>
+        <div class="row">
+            <button onclick="EnterNumber(4)">4</button>
+            <button onclick="EnterNumber(5)">5</button>
+            <button onclick="EnterNumber(6)">6</button>
+            <button onclick="appenOperator('-')" class="opera">-</button>
+        </div>
+        <div class="row">
+            <button onclick="EnterNumber(1)">1</button>
+            <button onclick="EnterNumber(2)">2</button>
+            <button onclick="EnterNumber(3)">3</button>
+            <button onclick="appenOperator('+')" class="opera">+</button>
+        </div>
+        <div class="row">
+            <button onclick="EnterNumber(0)" class="btn-zero">0</button>
+            <button onclick="appenEqual('.')" >.</button>
+            <button onclick="calculateResult()" class="opera">=</button>
         </div>
     </div>
 </body>
-<script src="script.js">
-
+<script src="js.js">
 </script>
 </html>
