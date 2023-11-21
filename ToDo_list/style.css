@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Mono:wght@500&display=swap');
-
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
-
 }
 body{
  background-image: linear-gradient(to right, #fc5c7f, #6a82fb);
